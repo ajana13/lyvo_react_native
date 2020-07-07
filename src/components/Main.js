@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Header from './Header.js'
 
 export default class Main extends Component {
     constructor(props) {
@@ -13,7 +14,7 @@ export default class Main extends Component {
             <View style={styles.container}>
                 {/* <Text>Is this working?</Text> */}
                 <View style={styles.header}>
-                    <Text>BioHack 2020</Text>
+                    <Header />
                 </View>
                 <View style={styles.body}>
 
